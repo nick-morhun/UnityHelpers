@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace UnityHelpers.Runtime
 {
-    public static class GameObjectExtensions
+    public static class GameObjectNameExtensions
     {
         public static string GetFullName([CanBeNull] this GameObject gameObject)
         {

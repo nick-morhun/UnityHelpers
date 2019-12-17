@@ -2,7 +2,7 @@
 
 namespace UnityHelpers.Runtime
 {
-    public static class UnityComponentExtensions
+    public static class UnityComponentDestructionExtensions
     {
         public static void DestroyObject(this Component unityComponent)
         {
