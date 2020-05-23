@@ -9,6 +9,9 @@ Add some useful menus to the Editor such as:
 - Assets/Upgrade All Assets (allows a single click reserialization of all assets in a new Unity version after an upgrade)
 - Other/Open Persistent Data Path (opens the directory in Explorer / Finder).
 
+At runtime:
+- AnimationHash can be added to Animator states to see their short name hashes.
+
 Also contains a few extension methods such as:
 - GameObject.GetFullName()
 - the Component.DestroyObject() overloads.
