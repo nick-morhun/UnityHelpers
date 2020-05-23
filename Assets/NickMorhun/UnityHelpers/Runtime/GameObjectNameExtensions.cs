@@ -22,7 +22,11 @@ namespace UnityHelpers.Runtime
                 path.Push(gameObject.name);
             }
 
+#if NET_4_6
             return string.Join("/", path);
+#else
+            return string.Join("/", path.ToArray());
+#endif
         }
     }
 }
