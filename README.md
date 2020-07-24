@@ -16,4 +16,4 @@ Also contains a few extension methods such as:
 - GameObject.GetFullName()
 - the Component.DestroyObject() overloads.
 
-The project is created in Unity 2019.2.15f1. Tested with Unity 2017.4 and above.
+The project is created in Unity 2019.2.15f1. Tested with Unity 2017.4 and above under .NET 4.x or Standard.
