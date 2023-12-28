@@ -1,6 +1,6 @@
 {
     "name": "NickMorhun.UnityHelpers.PlayModeTests",
-    "rootNamespace": "",
+    "rootNamespace": "UnityHelpers",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",

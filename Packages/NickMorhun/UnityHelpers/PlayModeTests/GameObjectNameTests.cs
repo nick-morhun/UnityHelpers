@@ -1,8 +1,7 @@
 ﻿using NUnit.Framework;
 using UnityEngine;
-using UnityHelpers.Runtime;
 
-namespace Tests
+namespace UnityHelpers.PlayModeTests
 {
     public class GameObjectNameTests
     {

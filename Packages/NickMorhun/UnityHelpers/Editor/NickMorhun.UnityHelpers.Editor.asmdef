@@ -1,6 +1,6 @@
 {
     "name": "NickMorhun.UnityHelpers.Editor",
-    "rootNamespace": "",
+    "rootNamespace": "UnityHelpers",
     "references": [
         "GUID:a94f3c6c6435287499383f4a9e8052ee"
     ],

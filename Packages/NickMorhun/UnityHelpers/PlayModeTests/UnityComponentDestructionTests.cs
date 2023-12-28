@@ -2,9 +2,8 @@
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
-using UnityHelpers.Runtime;
 
-namespace Tests
+namespace UnityHelpers.PlayModeTests
 {
     public class UnityComponentDestructionTests
     {

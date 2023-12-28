@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using JetBrains.Annotations;
+using UnityEngine.Scripting.APIUpdating;
 
-namespace UnityHelpers.Runtime
+namespace UnityHelpers
 {
+    [MovedFrom("UnityHelpers.Runtime")]
     public sealed class AnimationHash : StateMachineBehaviour
     {
         [UsedImplicitly]

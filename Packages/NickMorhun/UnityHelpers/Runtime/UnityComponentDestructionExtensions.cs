@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UnityHelpers.Runtime
+namespace UnityHelpers
 {
     public static class UnityComponentDestructionExtensions
     {
