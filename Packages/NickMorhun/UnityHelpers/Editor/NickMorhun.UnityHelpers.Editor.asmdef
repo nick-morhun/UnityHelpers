@@ -1,0 +1,16 @@
+{
+    "name": "NickMorhun.UnityHelpers.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a94f3c6c6435287499383f4a9e8052ee"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

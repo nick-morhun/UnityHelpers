@@ -1,5 +1,6 @@
 {
-    "name": "PlayModeTests",
+    "name": "NickMorhun.UnityHelpers.PlayModeTests",
+    "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
@@ -16,5 +17,6 @@
     "defineConstraints": [
         "UNITY_INCLUDE_TESTS"
     ],
-    "versionDefines": []
+    "versionDefines": [],
+    "noEngineReferences": false
 }
