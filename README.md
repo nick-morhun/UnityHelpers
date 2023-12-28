@@ -1,7 +1,7 @@
 # UnityHelpers
 A set of utilities for Unity game engine.
 
-Add some useful menus to the Editor such as:
+Adds some useful menus under "Unity Helpers", such as:
 
 - Selection/Print Asset Path
 - Selection/Print Global Position
@@ -16,4 +16,4 @@ Also contains a few extension methods such as:
 - GameObject.GetFullName()
 - the Component.DestroyObject() overloads.
 
-The project is created in Unity 2019.2.15f1. Tested with Unity 2017.4 and above under .NET 4.x or Standard.
+The package should work with Unity 2019.1 and above under .NET 4.x or Standard. You can reference it as a Git dependency with URL <https://github.com/nick-morhun/UnityHelpers.git?path=/Packages/NickMorhun/UnityHelpers>.
