@@ -15,5 +15,6 @@ At runtime:
 Also contains a few extension methods such as:
 - GameObject.GetFullName()
 - the Component.DestroyObject() overloads.
+- Safe assignment: field = argument.NotNull(nameof(argument));
 
 The package should work with Unity 2019.1 and above under .NET 4.x or Standard. You can reference it as a Git dependency with URL <https://github.com/nick-morhun/UnityHelpers.git?path=/Packages/NickMorhun/UnityHelpers>.
