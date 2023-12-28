@@ -1,0 +1,20 @@
+{
+  "name": "com.nick-morhun.unity-helpers",
+  "displayName": "Unity Helpers",
+  "version": "1.0.0",
+  "unity": "2019.1",
+  "description": "Utilities for better productivity.",
+  "keywords": [
+    "productivity", "utility"
+  ],
+  "author": {
+    "name": "Nick Morhun"
+  },
+  "license": "MIT",
+  "licensesUrl": "https://github.com/nick-morhun/UnityHelpers/blob/master/LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nick-morhun/UnityHelpers.git",
+    "directory": "Packages/NickMorhun/UnityHelpers"
+  }
+}
