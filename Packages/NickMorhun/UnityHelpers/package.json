@@ -1,11 +1,12 @@
 {
   "name": "com.nick-morhun.unity-helpers",
   "displayName": "Unity Helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2019.1",
   "description": "Utilities for better productivity.",
   "keywords": [
-    "productivity", "utility"
+    "productivity",
+    "utility"
   ],
   "author": {
     "name": "Nick Morhun"
