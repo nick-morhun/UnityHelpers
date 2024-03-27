@@ -4,7 +4,8 @@ A set of utilities for Unity game engine.
 Adds some useful menus under "Unity Helpers", such as:
 
 - Selection/Print Asset Path
-- Selection/Print Global Position
+- Selection/Print GO Scene Path
+- Selection/Print GO Global Position
 - Selection/Ping Inspected Object
 - Assets/Upgrade All Assets (allows a single click reserialization of all assets in a new Unity version after an upgrade)
 - Other/Open Persistent Data Path (opens the directory in Explorer / Finder).

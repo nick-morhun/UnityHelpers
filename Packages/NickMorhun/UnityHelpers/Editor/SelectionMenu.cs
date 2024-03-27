@@ -5,7 +5,23 @@ namespace UnityHelpers.Editor
 {
     internal static class SelectionMenu
     {
-        [MenuItem("Unity Helpers/Selection/Print Global Position")]
+        [MenuItem("Unity Helpers/Selection/Print GO Scene Path")]
+        public static void PrintGameObjectName()
+        {
+            if (PrintGlobalPositionValidate())
+            {
+                var activeGameObject = Selection.activeGameObject;
+                Debug.Log(activeGameObject.GetFullName());
+            }
+        }
+
+        [MenuItem("Unity Helpers/Selection/Print GO Scene Path", true)]
+        public static bool PrintGameObjectNameValidate()
+        {
+            return Selection.activeGameObject && Selection.activeGameObject.scene.isLoaded;
+        }
+
+        [MenuItem("Unity Helpers/Selection/Print GO Global Position")]
         public static void PrintGlobalPosition()
         {
             if (PrintGlobalPositionValidate())
@@ -15,7 +31,7 @@ namespace UnityHelpers.Editor
             }
         }
 
-        [MenuItem("Unity Helpers/Selection/Print Global Position", true)]
+        [MenuItem("Unity Helpers/Selection/Print GO Global Position", true)]
         public static bool PrintGlobalPositionValidate()
         {
             return Selection.activeGameObject && Selection.activeGameObject.scene.isLoaded;
